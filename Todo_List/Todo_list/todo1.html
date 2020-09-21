@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script defer src="todo3.js"></script>
+    <link rel="stylesheet" href="todo2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.js" integrity="sha512-th3I8avnzF4BCwrfylow7+VRKCXRtC5gsZA8G4ZqaGyhFzNz7BtmPcZs/qjBv0qVRhPAlqzGwkZAliB0AAQbWQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <label for="newTask">Task</label>
+            <input type="text" class="form-control" id="newTask" aria-describedby="newTaskHelp" placeholder="Enter task">
+            <small id="newTaskHelp" class="form-text text-muted">Write a Description of your task</small>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-success col-xs-12 col-sm m-1" id="btnadd" disabled><i class="fa fa-plus"></i>Add Task</button>
+            <button type="button" class="btn btn-danger col-xs-12 col-sm m-1" id="btnclr" disabled><i class="fas fa-backspace"></i>Clear Input</button>
+        </div>
+        <div class = "row">
+            <button type="button" class="btn btn-warning col-xs-12 col-sm m-1" id="btnsort" enabled><i class="fas fa-sort-amount-up"></i>Sort Task</button>
+            <button type="button" class="btn btn-info col-xs-12 col-sm m-1" id="btnreset" enabled><i class="fa fa-trash"></i>Clear Done Task</button>
+        </div>
+        <ul class="list-group m-2" id="ulList">
+        </ul>
+    </div>
+</body>
+</html>
