@@ -1,0 +1,246 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+#header
+{
+    height: 100px;
+    padding:10px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    background: rgb(0,0,0);
+    /* background:  #101010; */
+}
+
+div.brandName 
+{
+    height: 100%;
+    display: inline-block;
+    margin:10px;
+    text-align: center;
+    margin-bottom: 10%;          
+}
+.brandName a
+{
+    font: 40px bold tahoma;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;   
+}
+.main-nav
+{
+    height:100%;
+    display:inline-block;
+    width: 80%;
+    text-align:right;
+    vertical-align: middle;
+}
+.main-nav__items
+{
+    list-style: none;
+    /* margin-top: 20%; */
+    padding:10px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+.main-nav__item
+{
+    color: white;   
+    display: inline-block;
+    padding:10px;
+    padding-bottom: 0px;
+}
+.main-nav__item a
+{
+    color: white;   
+    font-weight: bold;
+    font-size:18px;
+    text-decoration: none;
+}
+.main-nav__item a:hover
+{
+    color: #ffcc00;
+    padding-bottom:5px;
+}
+.main-nav__item a span
+{
+     color:#fed931;
+}
+.dropbtn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:30px; 
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffcc00;
+}
+
+.the3boxes
+{
+     padding:10px;
+     background: url('background-cafe-chairs-601169.jpg');
+     background-attachment: fixed;
+     padding: 40px;
+     text-align: center;
+}
+
+.box
+{
+    background: white;
+    border:1px solid white;
+    border-radius: 16px;
+    margin:10px;
+    padding: 10px;
+    display:inline-block;
+    width:26%;
+    font-size: 12px;
+    font-family: 'Arimo', sans-serif;
+    text-align:center;
+}
+.box h1
+{
+    font-family: 'Mouse Memoirs', sans-serif;
+    margin:10px;
+}
+.box p
+{
+    margin:10px;
+}
+.maps
+{
+    text-align: center;
+    padding-top: 55px;
+    background:black;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    border-bottom:10px solid #2c2c2c;
+    margin-bottom: 30px;
+    padding-bottom: 50px; 
+}
+/* .maps__row1
+{
+    border:1px solid white;
+    margin: 40px;
+} */
+.maps__row2
+{
+    margin-top: 34px;
+    /* border: 1px solid white; */
+}
+.maps__row1__map
+{
+    display:inline-block;
+    text-align: center;
+    margin: 5px;
+}
+.maps__row2__map
+{
+    display:inline-block;
+    text-align: center;    
+    margin: 5px;
+}
+.map
+{
+    padding: 10px;
+    width: 26%;
+    height: 375px;
+    vertical-align: middle;
+    border:5px solid  	#D2B48C;
+    border-radius: 16px;
+    color:white;
+    background: url('mapWooden2.jpeg');
+}
+.map__info
+{
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin: 10px;
+}
+.map__image
+{
+       margin-top: 20px;
+}
+.beforeFooter__section
+{
+    background: rgb(0, 0, 0);
+    padding: 10px;
+}
+.beforeFooter__handles__list
+{
+    text-align: center;
+    margin:10px;
+}
+
+.beforeFooter__handles__list__listItem
+{
+    display: inline-block;
+    margin:5px;
+}
+.beforeFooter__handles__list__listItem__image {
+    background: #fed931;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    display: inline-block;
+}
+.beforeFooter__contact
+{
+    text-align: center;
+    font-size:12px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+.main-footer__nav{
+    background: #2c2c2c;
+    text-align: center;
+}
+.main-footer__link
+{
+    display: inline-block;
+    margin-left:20px;
+}
+.main-footer__link a
+{
+    text-decoration: none;
+    color: white;
+}

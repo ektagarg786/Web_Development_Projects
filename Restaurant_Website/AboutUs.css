@@ -1,0 +1,305 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+#header
+{
+    height: 100px;
+    padding:10px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    background: rgb(0,0,0);
+    /* background:  #101010; */
+}
+
+div.brandName 
+{
+    height: 100%;
+    display: inline-block;
+    margin:10px;
+    text-align: center;
+    margin-bottom: 10%;          
+}
+.brandName a
+{
+    font: 40px bold tahoma;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;   
+}
+.main-nav
+{
+    height:100%;
+    display:inline-block;
+    width: 80%;
+    text-align:right;
+    vertical-align: middle;
+}
+.main-nav__items
+{
+    list-style: none;
+    /* margin-top: 20%; */
+    padding:10px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+.main-nav__item
+{
+    color: white;   
+    display: inline-block;
+    padding:10px;
+    padding-bottom: 0px;
+}
+.main-nav__item a
+{
+    color: white;   
+    font-weight: bold;
+    font-size:18px;
+    text-decoration: none;
+}
+.main-nav__item a:hover
+{
+    color: #ffcc00;
+    padding-bottom:5px;
+}
+.main-nav__item a span
+{
+     color:#fed931;
+}
+.dropbtn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:30px; 
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffcc00;
+}
+.HomePage__mainImage 
+{
+    margin:0;
+    background-image: url('background-cafe-chairs-601169.jpg');
+    background-repeat: no-repeat;
+    z-index: -10;
+    background-size: cover; 
+    background-position: 10% 30%;
+    width: 100%;
+    height: 528px;
+    padding: 10px; 
+    margin-bottom: 100px;
+    /* background-attachment: fixed; */
+    /* margin:  auto; */
+}
+.container
+{
+    padding:5px;
+}
+.set1
+{
+    float: left;
+    width:50%;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.set2
+{
+    float:left;
+    width:50%;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.sliderImages__set1
+{
+    margin-left:65px;
+    padding:10px;
+    border:2px solid red;
+}
+.sliderImages__set2
+{
+
+    margin-left:95px;
+    padding:10px;
+    border:2px solid red;
+}
+#container
+{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    border:2px solid ghostwhite;
+    box-shadow:2px 2px 4px 2px rgba(0,0,0,0.5);
+}
+#sliderBox
+{
+    position: relative;
+    width: 3000px;
+    animation-name: sliderAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sliderAnimation
+{
+      0%
+      {
+          left: 0px;
+      }
+      50%
+      {
+          left:0px;
+      }
+      60%
+      {
+          left:-1500px;
+      }
+      100%
+      {
+          left:-1500px;
+      }
+      
+      
+}
+.div__aboutUs
+{
+    display:block;
+    margin:20px;
+}
+
+.AboutUs__Image
+{
+    width:25%;
+    float:left;
+    /* overflow: hidden; */
+    margin: 10px;
+    margin-top:60px;
+    margin-right: 40px;
+    border: 2px solid gray;
+}
+.aboutUs
+{
+     border: 2px solid red;
+     margin: 30px;
+     float:right;
+     width:70%;
+}
+.Mission
+{
+    clear: both;
+    /* border: 2px solid red; */
+    margin: 30px;
+    background: rgb(0,0,0);
+    color: white;
+    padding:20px; 
+}
+.comunityOutReach
+{
+    /* border: 2px solid red; */
+    margin: 30px;
+}
+
+.heading
+{
+    margin:10px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.heading2
+{
+    margin:30px;
+    margin-left:0px;
+}
+.headingMission
+{
+    margin-top:5px;
+    font-family: 'Tangerine', cursive;
+    font-size:40px;
+}
+.paragraph1
+{
+    margin:100px;
+    padding:10px;
+    margin-top:20px;
+    margin-bottom: 20px;   
+}
+.paragraphMission
+{
+    /* font-family: 'Dokdo', cursive;
+    font-family: 'Satisfy', cursive; */
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+}
+.paragraph,.paragraph1
+{
+    font-family: 'Crimson Text', serif;
+    font-size: 19px;
+}
+.comunityOutReach,.div__aboutUs
+{
+    background: ghostwhite;
+    padding:20px;   
+}
+.donations,.scripProgram,.fundraiser
+{
+    
+}
+
+.main-footer__nav{
+    background: #2c2c2c;
+    text-align: center;
+}
+.main-footer__link
+{
+    display: inline-block;
+    margin-left:20px;
+}
+.main-footer__link a
+{
+    text-decoration: none;
+    color: white;
+}
+.iconsImage
+{
+    background: black;
+    text-align: center;
+    padding: 30px;
+}

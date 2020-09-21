@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>order Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Luckiest+Guy|Tangerine:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="header">
+     <div class="brandName">
+         <!-- <a href=""><img src="McDonald.png" height="30px" width="40px"></a> -->
+         <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+         <a href="" >Ali Baba</a>
+     </div>
+     <div class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                        <a href="HomePage.html">
+                                Home
+                        </a>
+                </li>
+                <li class="main-nav__item">
+                       <span>
+                           |
+                       </span>
+                   </li>
+                <li class="main-nav__item">
+                    <a href="Menu.html">
+                        Menu
+                    </a>
+                </li>
+                <li class="main-nav__item">
+                       <span>
+                           |
+                       </span>
+                   </li>
+                <li class="main-nav__item">
+                   <a href="selectOrderDishes.html">
+                    Place Order
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                       <span>
+                           |
+                       </span>
+                   </li>
+                <li class="main-nav__item">
+                   <a href="AboutUs.html">
+                    About Us
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                       <span>
+                           |
+                       </span>
+                   </li>
+                <li class="main-nav__item">
+                   <a href="Location.html">
+                       Location
+                  </a>
+                </li>
+            </ul>
+           </div>
+</div>
+    <div class="backdrop"></div>
+        <div class="modal">
+            <div class="closeModal">
+            <button type="button" id="closeModalButton">x</button>
+            </div>
+            <h1 class="modal__title">Confirm Order?</h1>
+            <div class="modal__actions">
+                <button type="button" class="modal__action" id="ok">Yes!</button>
+                <button class="modal__action modal__action--negative" id="cancel" type="button">No!</button>
+            </div>
+        </div>
+        <div class="modal2">
+            Order Confirmed!!<br>
+            1 hour to reach your Door
+        </div>
+        <nav class="mobile-nav">
+                <ul class="mobile-nav__items">
+                    <li class="mobile-nav__item">
+                        <a href="HomePage.html">Home</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="Menu.html">Menu</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="AboutUs.html">About Us</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                            <a href="Location.html">Location</a>
+                    </li>
+                    <li class="mobile-nav__item mobile-nav__item--cta">
+                            <a href="selectOrderDishes.html">Order Now</a>
+                    </li>
+                </ul>
+            </nav>
+    <div class="container">
+        <div class="controls">
+            <h1>Our Awesome Menu</h1>
+            <div id="div_2">
+             <input type="text" id="input" placeholder="your favourite dishes.."><br>
+             <button type="button" id="add">Add Dish</button>
+             <button type="button" id="remove">Remove Dish</button>
+             <button type="button" id="order">Place Order</button>
+             <!-- <button type="button" id="removeAll">Remove Everything</button> -->
+            </div>
+        </div>
+        <ul id="List">
+            <li class="mycheck">
+                <input type="checkbox" id="check" ><label>Tikki</label> </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" ><label>Italian pasta</label> 
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" ><label>Cheese Pizza</label> 
+            </li>
+            <!-- <li class="mycheck">
+                <input type="checkbox" id="check" checked><label>Lobster</label> 
+            </li> -->
+        </ul>
+    </div>
+    <section class="beforeFooter__section">
+            <div class="beforeFooter__handles">
+               <ul class="beforeFooter__handles__list">
+                   <li class="beforeFooter__handles__list__listItem">
+                        <div class="beforeFooter__handles__list__listItem__image">
+                           
+                        </div>
+                   </li>
+                   <li class="beforeFooter__handles__list__listItem">
+                        <div class="beforeFooter__handles__list__listItem__image">
+                           
+                          </div>
+                   </li>
+                   <li class="beforeFooter__handles__list__listItem ">
+                        <div class="beforeFooter__handles__list__listItem__image">
+                           
+                       </div>
+                  </li>
+                  <li class="beforeFooter__handles__list__listItem ">
+                          <div class="beforeFooter__handles__list__listItem__image">
+                             
+                         </div>
+                    </li>
+               </ul>
+            </div>
+            <div class="beforeFooter__contact">
+                 <p >Contact 9415453813</p>
+            </div class="beforeFooter__address">
+            <div>
+      
+            </div>
+           </section>
+          </main>
+          <footer class="main-footer">
+           <nav class="main-footer__nav">
+               <ul class="main-footer__links">
+                   <li class="main-footer__link">
+                      <a href="" >Support</a>
+                   </li>
+                   <li class="main-footer__link">
+                      <a href="">Terms</a>
+                  </li>
+               </ul>
+           </nav>
+          </footer>
+
+    <script src="SelectOrderDishes.js"></script>
+</body>
+</html> 
