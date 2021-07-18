@@ -26,9 +26,9 @@ The login page is common for students and teachers.
 The username is their name and password for everyone is 'project123'.  
 
 Example usernames:  
-student- 'kaya'  
-teacher- 'sajal' 
-Password for sajal is 'kumar1234'.
+student- 'ekta725'  
+Password - 'garg1234'
+teacher- 'trisila' 
 
 You can access the django admin page at **http://127.0.0.1:8000/admin** and login with username 'admin' and the above password.
 
@@ -65,15 +65,13 @@ The admin page is used to modify all tables such as Students, Teachers, Departme
 
 ### Student Page
 
-![alt text](https://imgur.com/isL9cjz.png)
+![image](https://user-images.githubusercontent.com/60681475/126057721-b2bc79ab-9f5d-4f29-80fc-daf9cafacc57.png)
 
-![alt text](https://imgur.com/5pzl7m3.png)
+![image](https://user-images.githubusercontent.com/60681475/126057728-0956b0ce-f505-46e0-bded-552e9d818e91.png)
 
-![alt text](https://imgur.com/7zWhHZx.png)
+![image](https://user-images.githubusercontent.com/60681475/126057753-6faef07b-5b6b-4c3b-9fc9-a78254374015.png)
 
-![alt text](https://imgur.com/fu7gxk8.png)
-
-![alt text](https://imgur.com/NZqU268.png)
+![image](https://user-images.githubusercontent.com/60681475/126057763-27295b1b-69c4-4fdf-a7de-79f99e719075.png)
 
 ### Admin Page
 
